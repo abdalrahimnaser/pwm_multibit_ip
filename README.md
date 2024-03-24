@@ -31,5 +31,5 @@ Here is a video of me playing with the project.
 
 ## Project Files
 Please don't forget to star the github repo if you found it useful also follow me on hackster for more VHDL IP cores projects coming soon.
-for vhdl files: pwm.srcs/sources_1/new 
+for vhdl files: pwm.srcs/sources_1/new   
 for the constraint file: pwm.srcs/constrs_1/imports/Desktop
