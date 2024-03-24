@@ -1,4 +1,5 @@
-# pwm_multibit_ip
+# Multibit PWM IP Core Using VHDL  
+
 
 ## Introduction
 Pulse Width Modulation (PWM) is a widely-used technique for controlling the power delivered to electrical devices, such as motors, LEDs, and heaters. In this tutorial, we'll explore how to design and implement a multi-bit PWM IP core using VHDL (VHSIC Hardware Description Language). We'll cover the basics of PWM, dive into the provided VHDL files, set up a project, simulate the design, synthesize it, and optionally test it on an FPGA board.
