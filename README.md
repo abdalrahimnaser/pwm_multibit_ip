@@ -27,7 +27,8 @@ __pwm_core.vhd__:    The core PWM module handles resolution, duty cycle setting,
 __pwm_core.vhd__:    This top-level module connects the PWM core to external signals and interfaces, all you need to do is to specify the number of resolution bits R, the divisor DVSR, and the width of the output signal W inside the generic map.  
 ## 5. Simulating The Design
 Before playing with the design, you should make sure to include the constraints file. In my case here with the basys 3 board, I have specified the the first 9 switches (8 to 0) to be the duty resolution bits, and the upper 4 switches (15 to 12) as the address signals. when you finish uploading all of these files to your project, click Generate Bitstream and let vivado go through all the implementation pipeline automatically. Once you generat the bitsteam, connect your fpga board and hit Program Device.
-Here is a video of me playing with the project.
+Here is a video of me playing with the project.    
+[![](https://img.youtube.com/vi/VTcqhlPA_Ls/0.jpg)](https://www.youtube.com/watch?v=VTcqhlPA_Ls)
 
 ## Project Files
 Please don't forget to star the github repo if you found it useful also follow me on hackster for more VHDL IP cores projects coming soon.
